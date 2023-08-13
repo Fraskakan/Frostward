@@ -1,0 +1,46 @@
+.header {
+  overflow: hidden;
+  background-color: #293766;
+  padding: 20px 20px 0px 10px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+  font-family: 'Bungee';
+  padding: 8px;
+  border-radius: 12px;
+  transition: transform .2s;
+}
+
+.header a:hover {
+  filter: brightness(0) saturate(100%) invert(80%) sepia(44%) saturate(325%) hue-rotate(7deg) brightness(106%) contrast(91%);
+  transform: scale(1.2);
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+
+.header-left {
+  float: left;
+}
+
+@media screen and (max-width: 300px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}

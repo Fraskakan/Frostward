@@ -1,0 +1,23 @@
+h1 {
+  font-size: 50px;
+  font-family: 'Bungee', cursive;
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display:flex;
+}
+.fixed {
+  width: 50%;
+}
+.flex-item {
+  width: 50%;
+  flex-grow: 1;
+}

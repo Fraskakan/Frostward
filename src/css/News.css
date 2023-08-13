@@ -1,0 +1,10 @@
+
+.news a {
+  color: gold;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 12px;
+  transition: transform .2s;
+}

@@ -1,0 +1,130 @@
+.container {
+  padding-top: 40px;
+}
+.fixed {
+  width: 50%;
+  padding-left: 30px;
+}
+.flex-item {
+  width: 50%;
+  flex-grow: 1;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.fixed-gif {
+  width: 50%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.flex-item-gif {
+  width: 50%;
+  flex-grow: 1;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.god {
+  height: 630px;
+  padding-bottom: 30px;
+  background-position: center; 
+  transition: transform .2s;
+}
+
+.god:hover {
+  transform: scale(1.02);
+}
+
+.devoroth {
+  min-height: 630px;
+  transition: transform .2s;
+}
+
+.devoroth:hover {
+  transform: scale(1.02);
+}
+
+.gameBar a {
+  color: #E5C622;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 12px;
+  transition: transform .2s;
+}
+
+.gameBar a:hover {
+  transform: scale(1.2);
+}
+
+.gameBar {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.more {
+  transition: transform .2s;
+  height: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.more.active {
+  height: 100%;
+}
+
+.button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display:block;
+    width: 100%;
+  }
+  .gameBar {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .fixed {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .flex-item {
+    width: 100%;
+    flex-grow: 0;
+  }
+  .fixed-gif {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .flex-item-gif {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .god {
+    height: 630px;
+    background-size: contain;
+    padding-bottom: 15px;
+  }
+}
